@@ -1,7 +1,7 @@
 def add_everything_up(a, b):
     try:
         add = a + b
-    except TypeError as exc:
+    except TypeError:
         return str(a) + str(b)
     else:
         return float(a) + float(b)
