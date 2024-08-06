@@ -5,6 +5,7 @@ def calculate_average(numbers):
     except TypeError:
         print('В numbers записан некорректный тип данных.')
     except ZeroDivisionError:
+        return 0
         pass
         #print('Нельзя делить на ноль, но мы держимся на плаву!.')
 
