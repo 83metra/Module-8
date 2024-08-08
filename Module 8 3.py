@@ -1,6 +1,4 @@
 class Car:
-    __vin = None # пока объект класса не создан, вин-номера ещё нет
-    __numbers = None # пока объект класса не создан, номера ещё нет
     def __init__(self, model, vin_number, numbers):
         if self.__is_valid_vin(vin_number) and self.__is_valid_numbers(numbers):
             self.model = model
